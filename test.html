@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>My First HTML Page</title>
+           <link rel="icon" type="image/x-icon" href="C:\Users\user\Pictures\Saved Pictures\html-5-icon.png">
+   </head>
+    <body>
+        <center>
+          <h1 style="color:red; text-align:left;">HTML is easy to learn</h1>
+          	<h2 id="P5">Paragraph 5</h2>
+        </center>
+        <hr>
+        <p>Hypertext Markup Language (HTML) is the standard markup language for
+        documents designed to be displayed in a web browser. It can be assisted by
+        technologies such as Cascading Style Sheets (CSS) and scripting languages
+        such as JavaScript.</p>
+           <img src="C:\Users\user\Pictures\Saved Pictures\html-5-icon.png">
+        <br>
+
+        <center>
+         <h2> Abdelwjid هياااا Angineer </h2>
+        </center>
+         
+        <hr>  <!-- سيقوم المتصفح بعرض خط أفقي مكان هذا الوسم -->
+        
+               <br><br>
+               <style>
+                li {
+                  color: blueviolet;
+                  text-align: left;
+                }
+               </style>
+                    <br><br>
+        <h3>HTML usage</h3>
+            <li>It's the standard markup language for creating Web pages</li>
+            <li>Describes the structure of a Web page</li>
+            <li>Consists of a series of elements</li>
+            <li>tells the browser how to display the content</li>
+            <hr>
+            <p>  <b>my</b> name is <b>Abdelwjid</b> </p>
+             <p>  <strong>my</strong> name is <strong>Abdelwjid</strong> </p>
+            <hr>
+            		<!-- سيتم عرضه بخط مائل <em> و بداخل الوسم <i> الكلام الموضوع بداخل الوسم -->
+		<p><i>Lord of the Rings</i> is a very large book.</p>
+		<p><em>Lord of the Rings</em> is a very large book.</p>
+      <hr>
+      	<!-- سيتم عرضه كنص محذوف <del> و بداخل الوسم <del> الكلام الموضوع بداخل الوسم -->
+		<p>HTML is so <del>hard</del> easy to learn.</p>
+		<p>The Earth is <s>flat</s> spherical in shape.</p>
+      	<!-- سيتم عرض خط تحته <u> الكلام الموضوع بداخل الوسم -->
+		<p><u>Name:</u> Mhamad Harmush</p>
+      <!--  سيتم عرضه كنص محذوف <del> الكلام الموضوع بداخل الوسم 
+		سيتم عرض خط تحته <ins> و الكلام الموضوع بداخل الوسم -->
+		<p>HTML is <del>not important</del> <ins>essential</ins> in web design.</p>
+      		<!-- سيتم تعليمه باللون الأصفر <mark> الكلام الموضوع بداخل الوسم -->
+		<p><mark>Fast food</mark> affect your body!</p>
+      		<!-- سيتم عرضه بشكل مرتفع قليلاً <sup> الكلام الموضوع بداخل الوسم 
+		سيتم عرضه بشكل منخفض قليلاً <sub> و الكلام الموضوع بداخل الوسم -->
+		<p>10<sup>6</sup> log<sub>2</sub> 64 = 6 Mbps</p>
+        <!-- https://harmash.com سيتم فتح صفحة الرابط "Go to harmash.com" عند النقر على النص -->
+         <center>
+            		<h2 id="P20">Paragraph 20</h2>
+      <p><a href="https://facebook.com" title="you will go to the facebook">Go to the page</a></p>
+            <!-- "Go to harmash.com" عند تمرير الماوس فوق الرابط سيتم إظهار تلميح فيه النص -->
+        <p><a href="https://harmash.com" title="Go to harmash.com">harmash</a> teaches you every thing you need.</p>
+        
+        </center>
+        <br>
+            <!-- سيتم فتح تطبيق إرسال الإيميل في جهاز المستخدم "Send Email" عند النقر على النص
+        كالجهة التي سيتم إرسال البريد إليها "someone@example.com" و سيتم وضع البريد الإلكتروني -->
+        <p><a href="mailto:someone@example.com">Send Email</a></p>
+        <hr>
+        <br>
+          <!-- 'P5' يساوي id عند النقر على هذا الرابط سيتم توجيه المستخدم للعنصر الذي يملك -->
+        <p><a href="#P5">Jump to Paragraph 5</a></p>
+
+        <!-- 'P20' يساوي id عند النقر على هذا الرابط سيتم توجيه المستخدم للعنصر الذي يملك -->
+        <p><a href="#P20">Jump to Paragraph 20</a></p>
+        <p><a href="sample.html#p5" title="to go the page">go to the sample.html then jump to the paragraph</a></p>
+        <center>
+        <a href="https://Facebook.com" title="to go to the Link"> <img src="C:\Users\user\Pictures\Saved Pictures\html-5-icon.png"></a>
+        </center>
+                <!-- https://harmash.com سيتم فتح صفحة الرابط "Go to harmash.com" عند النقر على الزر -->
+        <button onclick="document.location='https://harmash.com'" title="do you want to go to the site">Go to harmash.com</button>
+        <br>
+          <!-- تعني أن الرابط سيتم عرض محتواه في نفس النافذة التي تم النقر عليه فيها _self القيمة -->
+        <p><a href="https://harmash.com" target="_self">Open harmash.com in the current window (iframe)</a></p>
+		
+        <!-- جديد (Tab) تعني أن الرابط سيتم عرض محتواه في تبويب _blank القيمة -->
+        <p><a href="https://harmash.com" target="_blank">Open harmash.com in a new tab</a></p>
+
+        <!-- تعني أن الرابط سيتم عرض محتواه بدل كل شيء موجود في الصفحة الموجود فيها _top القيمة -->
+        <p><a href="https://harmash.com" target="_top">Open harmash.com in the full window</a></p>
+
+        <!-- تعني أن الرابط سيتم عرض محتواه بدل كل شيء موجود في الصفحة الموجودة فيها الصفحة الداخلية التي تحتوي على الرابط _parent القيمة -->
+        <p><a href="https://harmash.com" target="_parent">Open harmash.com in the parent window (parent iframe)</a></p>
+        <a href="https://Facebook.com" target="_blank" title="to go the facebook application
+        "><img src="C:\Users\user\Pictures\Saved Pictures\html-5-icon.png">/a>
+    </body>
+</html>
